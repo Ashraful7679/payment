@@ -82,134 +82,218 @@ if __name__ == "__main__":
             # Sample card data
 
             cards = [
-                            {
-                    "name": "MD NAZRUL ISLAM ",
-                    "number": "4199501301746202",
-                    "code": "246",
-                    "expiry_date": "2404",
-                    "remarks": "One Bank"
-                },
-                {
-                    "name": "AYESHA BEGUM",
-                    "number": "5439830410614200",
-                    "code": "762",
-                    "expiry_date": "2612",
-                    "remarks": "Southeast "
-                },
-                {
-                    "name": "MOHAMMAD MINHAJ UDDIN",
-                    "number": "5439830331920678",
-                    "code": "632",
-                    "expiry_date": "2612",
-                    "remarks": "Southeast"
-                },
-                {
-                    "name": "MD MINHAJ UDDIN",
-                    "number": "4520172401557913",
-                    "code": "145",
-                    "expiry_date": "2608",
-                    "remarks": "EBL CARD"
-                },
-                
-                {
-                    "name": "ARMANUL HOQUE MAROF",
-                    "number": "5439835416880358",
-                    "code": "575",
-                    "expiry_date": "2504",
-                    "remarks": "SOUTHEAST"
-                },
-                {
-                    "name": "PARVEZ",
-                    "number": "5439835728893065",
-                    "code": "935",
-                    "expiry_date": "2612",
-                    "remarks": "SOUTHEAST"
-                },
-
-                {
-                    "name": "TAPHIM MARWAH",
-                    "number": "5439830348194309",
-                    "code": "775",
-                    "expiry_date": "2612",
-                    "remarks": "SOUTHEAST"
-                },
-                {
-                    "name": "MOHAMMAD FORKAN",
-                    "number": "4520174672457005",
-                    "code": "270",
-                    "expiry_date": "2501",
-                    "remarks": "EBL"
-                },
-                    {
-                    "name": "MD RAIHAN UDDIN ",
-                    "number": "5439835435961940",
-                    "code": "317",
-                    "expiry_date": "2504",
-                    "remarks": "SOUTHEST Bank"
-                },
-
-
-                            {
-                    "name": "Minhaj ",
-                    "number": "4937280037105556",
-                    "code": "998",
-                    "expiry_date": "2705",
-                    "remarks": "Redotpay "
-                },
-                
-                    
-                                    {
-                    "name": "Shanewaz sultana",
-                    "number": "4937280082413301",
-                    "code": "158",
-                    "expiry_date": "2706",
-                    "remarks": "PPPPPP"
-                },
-                                {
-                    "name": "JAHED HOSSAIN ",
-                    "number": "5439832381490321",
-                    "code": "308",
-                    "expiry_date": "2612",
-                    "remarks": "SEBL "
-                },
-                            {
-                    "name": "MOHAMMAD ABRAR FYSAL CHY",
-                    "number": "4937280016304444",
-                    "code": "168",
-                    "expiry_date": "2707",
-                    "remarks": "Redot Rakin"
-                },
-                
-                        {
-                    "name": "MOHAMMAD MINHAJ UDDIN",
-                    "number": "4937280082396498",
-                    "code": "868",
-                    "expiry_date": "2711",
-                    "remarks": "Redot MINHAJ 2"
-                },
-                        {
-                    "name": "MOHAMMAD MINHAJ UDDIN",
-                    "number": "4238000001440722",
-                    "code": "614",
-                    "expiry_date": "2906",
-                    "remarks": "EBL CREDIT MINHAJ"
-                },
+                           {
+        "name": "Rakin",
+        "number": "5439833125282842",
+        "code": "385",
+        "expiry_date": "2612",
+        "remarks": "SOUTHEST"
+    },
+    {
+        "name": "ASHRAFUL",
+        "number": "4937280013986086",
+        "code": "543",
+        "expiry_date": "2807",
+        "remarks": "Redot"
+    },
+    {
+        "name": "ALEYA AKTER PURNIMA",
+        "number": "4937280076070273",
+        "code": "527",
+        "expiry_date": "2808",
+        "remarks": "Redot"
+    },
+    {
+        "name": "MD MINHAJ UDDIN",
+        "number": "0",
+        "code": "145",
+        "expiry_date": "2608",
+        "remarks": "EBL CARD"
+    },
+    {
+        "name": "ARMANUL HOQUE MAROF",
+        "number": "0",
+        "code": "575",
+        "expiry_date": "2504",
+        "remarks": "SOUTHEAST"
+    },
+    {
+        "name": "PARVEZ",
+        "number": "0",
+        "code": "935",
+        "expiry_date": "2612",
+        "remarks": "SOUTHEAST"
+    },
+    {
+        "name": "TAPHIM MARWAH",
+        "number": "0",
+        "code": "775",
+        "expiry_date": "2612",
+        "remarks": "SOUTHEAST"
+    },
+    {
+        "name": "MOHAMMAD FORKAN",
+        "number": "0",
+        "code": "270",
+        "expiry_date": "2501",
+        "remarks": "EBL"
+    },
+        {
+        "name": "MD RAIHAN UDDIN ",
+        "number": "0",
+        "code": "317",
+        "expiry_date": "2504",
+        "remarks": "SOUTHEST Bank"
+    },
+    {
+        "name": "Minhaj ",
+        "number": "0",
+        "code": "998",
+        "expiry_date": "2705",
+        "remarks": "Redotpay "
+    },
+    {
+        "name": "Shanewaz sultana",
+        "number": "0",
+        "code": "158",
+        "expiry_date": "2706",
+        "remarks": "PPPPPP"
+    },
+    {
+        "name": "JAHED HOSSAIN ",
+        "number": "0",
+        "code": "308",
+        "expiry_date": "2612",
+        "remarks": "SEBL "
+    },
+    {
+        "name": "MOHAMMAD ABRAR FYSAL CHY",
+        "number": "4937280016304444",
+        "code": "168",
+        "expiry_date": "2707",
+        "remarks": "Redot Rakin"
+    },
+    {
+        "name": "MOHAMMAD ABRAR FYSAL CHY",
+        "number": "5341837604509390",
+        "code": "198",
+        "expiry_date": "2801",
+        "remarks": "Bybit Rakin"
+    },
+    {
+        "name": "Minhaj Uddin",
+        "number": "0",
+        "code": "614",
+        "expiry_date": "2906",
+        "remarks": "EBL MINHAJ"
+    },
+    {
+        "name": "Mohammad abrar faysal chy",
+        "number": "0",
+        "code": "952",
+        "expiry_date": "2802",
+        "remarks": "Rakin Redot 2 "
+    },
 
     {
         "name": "SHAHID MONSHI",
-        "number": "5439831906822406",
+        "number": "0",
         "code": "169",
         "expiry_date": "2612",
         "remarks": "Sohid Southest"
     },
+    {
+        "name": "DR JASHIM UDDIN CHY ",
+        "number": "0",
+        "code": "546",
+        "expiry_date": "2911",
+        "remarks": "jASHIM oNE bANK"
+    },
 
-
-                   {
+    {
         "name": "JAMALA UDDIN",
-        "number": "5439832401481656",
+        "number": "0",
         "code": "062",
         "expiry_date": "2612",
         "remarks": "SEBL"
+    },
+
+    {
+        "name": "Shanewaz sultana",
+        "number": "0",
+        "code": "299",
+        "expiry_date": "2802",
+        "remarks": "Redot 2..."
+    },
+
+    {
+        "name": "MAHEDI HASAN MUSLIM",
+        "number": "0",
+        "code": "006",
+        "expiry_date": "2802",
+        "remarks": "Redot..."
+    },
+    
+    {
+        "name": "AYESHA BEGUM",
+        "number": "0",
+        "code": "067",
+        "expiry_date": "2802",
+        "remarks": "Redot..."
+    },
+
+    {
+        "name": "JAHED HOSEN",
+        "number": "0",
+        "code": "736",
+        "expiry_date": "2802",
+        "remarks": "Redot..."
+    },
+
+
+    {
+        "name": "SALMA SONIA",
+        "number": "0",
+        "code": "617",
+        "expiry_date": "2802",
+        "remarks": "Redot..."
+    },
+
+
+
+    {
+        "name": "RIFAT",
+        "number": "0",
+        "code": "545",
+        "expiry_date": "2802",
+        "remarks": "Redot..."
+    },
+
+
+    {
+        "name": "TAPHIM MARWA",
+        "number": "0",
+        "code": "879",
+        "expiry_date": "2802",
+        "remarks": "Redot..."
+    },
+
+
+    {
+        "name": "Minhaj Uddin",
+        "number": "0",
+        "code": "308",
+        "expiry_date": "2802",
+        "remarks": "Tevau..."
+    },
+
+
+    {
+        "name": "Minhaj Uddin",
+        "number": "0",
+        "code": "903",
+        "expiry_date": "3003",
+        "remarks": "Tevau...2"
     },
 
             ]
